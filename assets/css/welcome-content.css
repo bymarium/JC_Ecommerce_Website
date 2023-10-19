@@ -1,49 +1,69 @@
 .welcome-content {
-    min-height: 100vh;
-    background-image: url('../img/banner.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: #0009;
-    background-blend-mode: soft-light;
+  min-height: 100vh;
+  background-image: url('../img/banner.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #0009;
+  background-blend-mode: soft-light;
 }
 
 .banner {
-    height: calc(100vh - 104px);
-    padding-top: 104px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
+  height: 100vh;
+  padding-top: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .banner__title {
-    color: #fff;
-    font-size: 80px;
-    text-shadow: -6px 4px 2px rgba(0,0,0,0.6);
+  color: #FFF;
+  font-size: 80px;
+  text-shadow: -6px 4px 2px rgba(0, 0, 0, 0.6);
 }
 
 .banner__subtitle {
-    font-size: 28px;
-    text-shadow: -2px 4px 4px rgba(0,0,0,1);
-    color: #fff;
-    display: block;
-    white-space: nowrap;
-    border-right: 3px solid #004e3e;
-    width: 41ch;
-    animation: typing 7s steps(52, end), blink .5s infinite step-end;
-    overflow: hidden;
+  font-size: 28px;
+  text-shadow: -2px 4px 4px rgba(0, 0, 0, 1);
+  color: #FFF;
+  display: block;
+  white-space: nowrap;
+  border-right: 3px solid #006170;
+  width: 41ch;
+  animation: typing 7s steps(50, end), blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@media screen and (width <= 720px) {
+  .banner__title {
+    font-size: 40px;
+  }
+
+  .banner__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (width <= 500px) {
+  .banner__title {
+    font-size: 30px;
+  }
+
+  .banner__subtitle {
+    font-size: 15px;
+  }
 }
 
 @keyframes typing {
-    0% {
-        width: 0;
-    }
+  0% {
+    width: 0;
+  }
 }
 
 @keyframes blink {
-    50% {
-        border-color: transparent;
-    }
+  50% {
+    border-color: transparent;
+  }
 }
