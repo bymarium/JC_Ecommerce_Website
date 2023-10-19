@@ -3,6 +3,7 @@
 @import './welcome-content.css';
 @import './services.css';
 @import './testimonials.css';
+@import './footer.css';
 
 * {
   margin: 0;
