@@ -55,3 +55,16 @@
 .testimonials__icon {
     color: rgb(225, 188, 3);
 }
+
+@media screen and (width <= 720px) {
+    .testimonials__element {
+        flex-direction: column;
+        margin: 5px;
+    }
+
+    .testimonials__image {
+        flex: auto;
+        border-radius: 0;
+        border-radius: 10px 10px 0 0;
+    }
+}
