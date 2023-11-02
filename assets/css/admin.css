@@ -1,0 +1,105 @@
+.admin-main {
+  padding-top: 130px;
+}
+
+.admin__container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.admin__table {
+  width: 100%;
+  color: #FFF;
+}
+
+.admin__table tr {
+  background-color: #00617062;
+  backdrop-filter: blur(20px);
+}
+
+.admin__table th {
+  background-color: #ffffff53;
+}
+
+.admin__table th, .admin__table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.admin__table button {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFF;
+  background-color: #006170;
+  cursor: pointer;
+}
+
+.admin__table .button--delete {
+  background-color: #973c32;
+}
+
+.admin__table td:last-of-type {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.admin__form {
+  background-color: #00617062;
+  border: 1px solid #FFF;
+  border-radius: 15px;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  backdrop-filter: blur(20px);
+}
+
+.admin__form h2 {
+  color: #FFF;
+  font-size: 26px;
+  text-align: center;
+}
+
+.admin__form-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  border: none;
+  outline: none;
+}
+
+.admin__form-section--row {
+  grid-template-columns: 1fr;
+}
+
+.admin__input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #FFF;
+}
+
+.admin__input input, .admin__input textarea {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.admin__button {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #006170;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #FFF;
+}

@@ -1,70 +1,69 @@
 .testimonials {
-    background-color: #fff;
-    padding-bottom: 40px;
+  background-color: #FFF;
+  padding-bottom: 40px;
 }
 
 .testimonials__title {
-    text-align: center;
-    font-size: 40px;
-    padding-top: 50px;
-    margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  margin-bottom: 20px;
 }
 
 .testimonials__element {
-    display: flex;
-    align-items: center;
-    border-radius: 15px;
-    background-color: #006170;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background-color: #006170;
 }
 
 .testimonials__element--reverse {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .testimonials__element--reverse .testimonials__image {
-    border-radius: 0 15px 15px 0;
+  border-radius: 0 15px 15px 0;
 }
 
 .testimonials__image {
-    background-image: url('../img/testimonial1.jpg');
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    flex: 50%;
-    border-radius: 15px 0 0 15px;
+  background-image: url('../img/testimonial1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  flex: 50%;
+  border-radius: 15px 0 0 15px;
 }
 
 .testimonials__container {
-    max-width: 1110px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .testimonials__content {
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 40px;
-    flex: 50%;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 40px;
+  flex: 50%;
 }
 
 .testimonials__icon {
-    color: rgb(225, 188, 3);
+  color: rgb(255, 188, 3);
 }
 
 @media screen and (width <= 720px) {
-    .testimonials__element {
-        flex-direction: column;
-        margin: 5px;
-    }
+  .testimonials__element {
+    flex-direction: column;
+    margin: 5px;
+  }
 
-    .testimonials__image {
-        flex: auto;
-        border-radius: 0;
-        border-radius: 10px 10px 0 0;
-    }
+  .testimonials__image {
+    flex: auto;
+    border-radius: 0;
+    border-radius: 10px 10px 0 0;
+  }
 }

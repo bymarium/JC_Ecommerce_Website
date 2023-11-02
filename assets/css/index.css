@@ -5,6 +5,7 @@
 @import './testimonials.css';
 @import './footer.css';
 @import './login.css';
+@import './admin.css';
 
 * {
   margin: 0;

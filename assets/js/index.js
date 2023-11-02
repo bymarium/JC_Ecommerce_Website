@@ -18,7 +18,7 @@ if (menuClose) {
 
 // Scroll in menu
 addEventListener('scroll', () => {
-  if (this.scrollY > 150) {
+  if (this.scrollY > 50) {
     header.classList.add('header--fill')
   } else {
     header.classList.remove('header--fill')
@@ -26,6 +26,7 @@ addEventListener('scroll', () => {
 })
 
 const testimonials = document.querySelectorAll('.testimonials__element')
+
 testimonials.forEach((testi) => {
   testi.firstElementChild.style.height = `${testi.getBoundingClientRect().height + 13}px`
 })
